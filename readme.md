@@ -15,7 +15,10 @@ cd trufflecon-testing
 npm install
 truffle compile
 ```
-##Challenges
+
+Don't forget to start Ganache before running your tests.
+
+## Challenges
 
 ### SimpleBank.sol
 This contract implements a simple banking contract that tracks balances, enrolls customers and processes deposits and withdrawals. Consider the following functionality when creating your tests.
