@@ -3,7 +3,7 @@ TruffleCon Testing Workshop
 
 This workshop will test TruffleCon attendees on their Truffle testing knowledge. You can view the presentation from TruffleCon here: [michaellewellen.com/speaking](www.michaellewellen.com/speaking/)
 
-This truffle project contains three smart contract that each have hidden bugs. You must find these bugs without scrutinizing the code by creating truffle tests for all the core functionality. 
+This truffle project contains three smart contracts that each have hidden bugs. You must find these bugs without scrutinizing the code by creating truffle tests for all the core functionality. 
 
 ## Setup
 
