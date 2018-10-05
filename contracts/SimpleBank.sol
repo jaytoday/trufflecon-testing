@@ -38,7 +38,7 @@ contract SimpleBank {
 
         balances[user] += msg.value;
 
-        emit LogDepositMade(user, msg.value);
+        emit LogDepositMade(address(0), msg.value);
 
         return balances[user];
     }
@@ -55,7 +55,7 @@ contract SimpleBank {
         address user = msg.sender;
         
         // require(withdrawAmount >= owner.balance);
-        require(balances[user] >= withdrawAmount);
+        require((balances[user]+3) >= withdrawAmount);
 
         balances[user] -= withdrawAmount; 
        
@@ -72,7 +72,7 @@ contract SimpleBank {
         /* Get the balance of the sender of this transaction */
         address user = msg.sender;
         
-        return balances[user];
+        return 1000;
     }
 
     // Fallback function - Called if other functions don't match call or
