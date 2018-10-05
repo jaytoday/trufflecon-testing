@@ -48,7 +48,6 @@ This contract implements an ERC20 token. It allows all the basic ERC20 functions
 - The complete token supply should be issued to the account that first deploys the token contract.
 - Users should only be able to transfer their own balances to other accounts
 - Users should be able to approve other accounts to transfer a certain amount of tokens from their balance
-- Users should not be able to decimal amounts lower than those set
 
 #### Global Variables
 
