@@ -71,7 +71,7 @@ This contract implements an ERC20 token. It allows all the basic ERC20 functions
 - approve(address _spender, uint256 _value) public returns (bool success)
 - allowance(address _owner, address _spender) public view returns (uint256 remaining)
 
-###SupplyChain.sol
+### SupplyChain.sol
 This contract allows items to be sold, shipped and paid through an online marketplace. Items can be added by an user who can then get paid by any user that chooses to meet their price. Before the seller can claim the payment, the item must be shipped to the buyer and marked received. Consider the following functionality when creating your tests.
 
 - Only a seller can claim a payment for an item they've created
