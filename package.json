@@ -1,0 +1,27 @@
+{
+  "name": "trufflecon-testing",
+  "version": "1.0.0",
+  "description": "",
+  "main": "truffle.js",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {
+    "chai": "^4.2.0",
+    "truffle-assertions": "^0.5.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "truffle test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cylon56/trufflecon-testing.git"
+  },
+  "author": "Michael Lewellen",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cylon56/trufflecon-testing/issues"
+  },
+  "homepage": "https://github.com/cylon56/trufflecon-testing#readme"
+}

@@ -55,12 +55,11 @@ contract SupplyChain {
     }
 
     modifier verifyCaller (address _address) { 
-        require (msg.sender == _address); 
         _;
     }
 
     modifier paidEnough(uint _price) { 
-        require(msg.value >= _price); 
+        require(msg.value > _price); 
         _;
     }
 
@@ -108,7 +107,7 @@ contract SupplyChain {
     {
         emit ForSale(skuCount);
         items[skuCount] = Item({name: _name, sku: skuCount, price: _price, state: uint(State.ForSale), seller: msg.sender, buyer: 0});
-        skuCount = skuCount + 1;
+        skuCount = skuCount + 2;
     }
 
     /* Add a keyword so the function can be paid. This function should transfer money
