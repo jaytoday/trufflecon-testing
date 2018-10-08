@@ -15,7 +15,7 @@ Bug locations for the contracts.
 - Line 52: The amount being transferred is not deducted from the sender's balance.
 - Line 65: The Approval event arguements are in the wrong order.
 
-###SupplyChain.sol
+### SupplyChain.sol
 
 - Line 57: The contract caller is never verified by the modifier
 - Line 63: The require statement only accepts payments greater than the price and will not accept a payment equal to the price as it should.
