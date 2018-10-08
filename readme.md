@@ -20,6 +20,8 @@ Don't forget to start Ganache before running your tests.
 
 ## Challenges
 
+Once you have completed the challenge, you can check your findings against the [solutions](./Solutions.md).
+
 ### SimpleBank.sol
 This contract implements a simple banking contract that tracks balances, enrolls customers and processes deposits and withdrawals. Consider the following functionality when creating your tests.
 
