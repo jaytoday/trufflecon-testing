@@ -5,7 +5,7 @@ This workshop will test TruffleCon attendees on their Truffle testing knowledge.
 
 This truffle project contains three smart contracts that each have hidden bugs. You must find these bugs without scrutinizing the code by creating truffle tests for all the core functionality. 
 
-Once you think you have found all the bugs, you can compare your finding with the [Solutions](./Solutions.md)
+Once you think you have found all the bugs, you can compare your findings with the [Solutions](./Solutions.md)
 
 ## Setup
 
