@@ -1,9 +1,11 @@
 TruffleCon Testing Workshop
 ---------------------------
 
-This workshop will test TruffleCon attendees on their Truffle testing knowledge. You can view the presentation from TruffleCon here: [michaellewellen.com/speaking](www.michaellewellen.com/speaking/)
+This workshop will test TruffleCon attendees on their Truffle testing knowledge. You can view the presentation from TruffleCon here: [michaellewellen.com/speaking](http://www.michaellewellen.com/speaking/)
 
 This truffle project contains three smart contracts that each have hidden bugs. You must find these bugs without scrutinizing the code by creating truffle tests for all the core functionality. 
+
+Once you think you have found all the bugs, you can compare your findings with the [Solutions](./Solutions.md)
 
 ## Setup
 
@@ -19,6 +21,8 @@ truffle compile
 Don't forget to start Ganache before running your tests.
 
 ## Challenges
+
+Once you have completed the challenge, you can check your findings against the [solutions](./Solutions.md).
 
 ### SimpleBank.sol
 This contract implements a simple banking contract that tracks balances, enrolls customers and processes deposits and withdrawals. Consider the following functionality when creating your tests.
